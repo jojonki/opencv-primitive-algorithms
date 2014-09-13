@@ -1,4 +1,34 @@
 opencv-primitive-algorithms
 ===========================
 
-OpenCV primitive algorithms in C
+This is a sample program for image primitive algorithms in C. Althoguh I made this project as Xcode, primitive algorythms are just simple C code.
+
+
+Usage
+------
+Please see main.cpp. There are APIs like below. 
+
+```
+void rotateCW90(unsigned char *pSrcBuf, unsigned char *pDstBuf, const unsigned int width, const unsigned int height);
+void rotateCCW90(unsigned char *pSrcBuf, unsigned char *pDstBuf, const unsigned int width, const unsigned int height);
+void flipX(unsigned char *pSrcBuf, unsigned char *pDstBuf, const unsigned int width, const unsigned int height) ;
+void flipY(unsigned char *pSrcBuf, unsigned char *pDstBuf, const unsigned int width, const unsigned int height);
+```
+
+![sample-out](https://raw.githubusercontent.com/jojonki/opencv-primitive-algorithms/master/sample-output.png)
+
+
+Contact
+------
+
+- [twitter/jojonki](https://twitter.com/jojonki)
+
+License
+----------
+Copyright (c) 2014 jojonki
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including w ithout limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to  the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. I N NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
